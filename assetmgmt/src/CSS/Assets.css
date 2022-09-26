@@ -1,0 +1,98 @@
+
+.assets {
+    position: fixed;
+    /* left: 4rem; */
+    bottom: 2rem;
+    top: 6rem;
+    width: calc(100vw - 68px);
+    max-width: 1855px;
+    background-color: #1c1c3b;
+    margin: auto 4rem;
+    padding: 0 auto;
+    border-radius: 2ch;
+    overflow: auto;
+    /* align-items:center; */
+    display: flex;
+    text-align: center;
+    
+}
+.assetswithsbar{
+    position: fixed;
+    /* left: 12rem; */
+    bottom: 2rem;
+    top: 6rem;
+    width: calc(100vw - 68px);
+    max-width: 1727px;
+    background-color: #1c1c3b;
+    margin: auto 12rem;
+    padding: auto ;
+    border-radius: 2ch;
+    overflow: auto;
+    display: flex;
+    text-align: center;
+}
+@media  screen and (min-width: 600px) {
+    .assets {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+}
+@media  screen and (min-width: 900px) {
+    .assets {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    
+}
+@media  screen and (min-width: 1200px) {
+    .assets {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(3, 1fr);  
+    }
+}
+
+@media  screen and (min-width: 1500px) {
+    .assets {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(4, 1fr); 
+    }
+    
+}
+@media  screen and (min-width: 1800px) {
+    .assets {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(5, 1fr);  
+    }
+}
+@media  screen and (min-width: 1880px) {
+    .assets {
+        grid-template-columns: repeat(0, 0fr);
+        grid-template-areas: 'assets'; 
+        grid-template-rows: 50px 1fr 50px;
+    }
+    .assetswithsbar{
+        grid-template-columns: repeat(6, 1fr);  
+    }
+    
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.asset-title{
+    text-align: center;
+}
+.page-number{
+    padding-top: 10px;
+}

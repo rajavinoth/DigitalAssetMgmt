@@ -127,3 +127,19 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# React
+/assetmgmt/node_modules/*
+# dependencies
+/assetmgmt/node_modules
+/assetmgmt/.pnp
+/assetmgmt/.pnp.js
+
+# testing
+/assetmgmt/coverage
+
+# production
+/assetmgmt/build
+
+Server/__pycache__/
+API/__pycache__/

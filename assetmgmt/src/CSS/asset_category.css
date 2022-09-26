@@ -1,0 +1,33 @@
+.asset_category_container{
+    border: solid 10px;
+    border-color: rgb(23, 16, 48);
+    background-color: rgb(18, 12, 31);
+    border-radius: 8px;
+    width: fit-content;
+    min-width: 230px;
+    margin: auto;
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+    box-shadow: rgba(46, 41, 41, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.asset_category_container h3{
+    text-align: center
+}
+img {
+    width: 100px;
+}
+.type {
+    float: left;
+    padding-left: 15px;
+}
+.typeName {
+    float: right;
+    padding-right: 15px;
+}
+hr {
+    margin-top: 8px;
+    border: none;
+    height: 3px;
+    background: rgb(32, 34, 56);
+    margin-bottom: 4px;
+}

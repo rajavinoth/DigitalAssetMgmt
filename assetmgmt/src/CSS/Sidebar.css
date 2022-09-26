@@ -1,0 +1,27 @@
+.sidebar {
+    margin: auto;
+    padding: auto;
+    position: fixed;
+    height: 100%;
+    width: 4rem;
+    background-color: #0A0C10;
+    padding-top: 20px;
+    box-shadow: rgba(14, 12, 44, 0.4) 4px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.sidebarExpended {
+    position: fixed;
+    height: 100%;
+    width: 12rem;
+    background-color: #0A0C10;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.menu-item {
+    font-size: 17px;
+    font-weight: 500;
+    /* padding-left: 1rem; */
+}
+ul {
+    padding: 1rem;
+    list-style-type: none;
+  }
