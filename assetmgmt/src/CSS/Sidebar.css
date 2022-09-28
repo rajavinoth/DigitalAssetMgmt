@@ -9,11 +9,12 @@
     box-shadow: rgba(14, 12, 44, 0.4) 4px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .sidebarExpended {
-    position: fixed;
+    position: fixed;    
+    margin: auto;
+    padding: auto;
     height: 100%;
     width: 12rem;
     background-color: #0A0C10;
-    padding-left: 10px;
     padding-top: 20px;
 }
 .menu-item {

@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from '../imgs/logo.png'
+import profpic from '../imgs/wamen-square.webp'
 import '../CSS/logo.css'
 
 const Imenu = () => {
 return (
-    <div className='imenu'>
-    <img src={logo} alt=''  height={80}/>
+    <div className='imenu'>            
+        <div className='ilogo'>
+            <img src={profpic} alt=''  height={80}/>
+        </div>
     </div>
 )
 };
